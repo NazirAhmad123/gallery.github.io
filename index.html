@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Gallery</title>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Add the logo and navigation here -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Gallery</a>
+			</div>
+			<!-- get the collapse work here -->
+			<div class="collapse navbar-collapse" id="#myNavbar">
+				
+			
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Photos</a></li>
+				<li><a href="#">Videos</a></li>
+				<li><a href="#">Designs</a></li>
+				<li><a href="#">Contact</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					Explore more &nbsp;<span class="caret"></span></a>
+
+					<ul class="dropdown-menu">
+						<li><a href="#">2014</a></li>
+						<li><a href="#">2015</a></li>
+						<li><a href="#">2016</a></li>
+						<li><a href="#">2017</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<!-- search -->
+			<form class="navbar-form navbar-left">
+				<div class="form-group">
+					<input class="form-control" type="text" name="search" placeholder="looking for a photo?">
+				</div>
+				<button type="submit" class="btn btn-default">Search</button>
+			</form>
+			<!-- icons -->
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon glyphicon-circle-arrow-down">&nbsp;Download</span></a></li>
+				<!-- <li><a href="" class="btn btn-block btn-social btn-twitter"></a></li> -->
+			</ul>
+		</div>
+		</div>
+	</nav>
+
+	<section class="main-container">
+
+		<!-- Create the banner here. -->
+		<!-- We create another container -->
+
+		<article class="index-intro">
+			<div class="container">
+			 
+				<div class="jumbotron">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1 style="text-transform: uppercase; font-size: 50px; font-style: bold;">Welcome to my gallery website</h1>
+						</div>
+						<!-- <div class="col-sm-4"></div> -->
+					</div>
+					
+					</div>
+				</div>
+		</article>
+
+		<article class="index-gallery">
+		<div class="container-fluid">
+<!-- 
+		<h2>My Gallery</h2>
+		<p>These are some of my favorite photos that i want to 
+		   share with the world.</p> -->
+
+		<div class="row">
+			<div class="col-sm-3 left"><img class="img-responsive img-rounded img-thumbnail" src="img/1.jpg"></div>
+			<div class="col-sm-3 center"><img class="img-responsive img-rounded img-thumbnail" src="img/13.jpg"></div>
+			<div class="col-sm-3 right"><img class="img-responsive img-rounded img-thumbnail" src="img/3.jpg"></div>
+			<div class="col-sm-3 right"><img class="img-responsive img-rounded img-thumbnail" src="img/10.jpg"></div>
+		</div>
+		<br><br>
+		<div class="row">
+			<div class="col-sm-3 left"><img class="img-responsive img-rounded img-thumbnail" src="img/4.jpg"></div>
+			<div class="col-sm-3 center"><img class="img-responsive img-rounded img-thumbnail" src="img/5.jpg"></div>
+			<div class="col-sm-3 right"><img class="img-responsive img-rounded img-thumbnail" src="img/6.jpg"></div>
+			<div class="col-sm-3 right"><img class="img-responsive img-rounded img-thumbnail" src="img/11.jpg"></div>
+		</div>
+		<br><br>
+		<div class="row">
+			<div class="col-sm-3 left"><img class="img-responsive img-rounded img-thumbnail" src="img/7.jpg"></div>
+			<div class="col-sm-3 center"><img class="img-responsive img-rounded img-thumbnail" src="img/8.jpg"></div>
+			<div class="col-sm-3 right"><img class="img-responsive img-rounded img-thumbnail" src="img/9.jpg"></div>
+			<div class="col-sm-3 right"><img class="img-responsive img-rounded img-thumbnail" src="img/12.jpg"></div>
+		</div>
+	</div>
+</article>
+
+	</section>
+
+</body>
+</html>
